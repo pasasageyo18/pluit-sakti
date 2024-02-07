@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "xyz.appmaker.udrcec",
+      "sha256_cert_fingerprints": [
+        "E3:B4:32:E2:23:77:50:93:BC:A8:DC:A7:C7:54:99:98:7A:6F:F6:D8:AE:7D:D1:A8:1D:EB:BD:C8:A7:AA:53:56"
+      ]
+    }
+  }
+]
