@@ -7,7 +7,7 @@ function MovieList() {
     <div className="grid grid-cols-6 gap-10 max-lg:gap-8 max-lg:grid-cols-3 max-md:grid-cols-2 max-xl:grid-cols-4">
       {movieAll.map((movie, index) => (
         <div className="flex flex-col gap-2" key={index}>
-          <div className="relative h-[370px] max-sm:h-[230px]">
+          <div className="relative h-[370px] max-md:h-[230px]">
             <Image
               src={movie.poster}
               alt={movie.title}
