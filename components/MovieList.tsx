@@ -19,9 +19,9 @@ function MovieList() {
           <div className="flex flex-col gap-2">
             <p className="text-white font-semibold text-xl">{movie.title}</p>
             <div className="flex gap-3">
-              <p className="text-white font-light text-sm">{movie.year}</p>
-              <p className="text-white font-light text-sm">|</p>
-              <p className="text-white font-light text-sm">{movie.time}</p>
+              <p className="text-white font-light text-xs">{movie.year}</p>
+              <p className="text-white font-light text-xs">|</p>
+              <p className="text-white font-light text-xs">{movie.time}</p>
             </div>
           </div>
         </div>
