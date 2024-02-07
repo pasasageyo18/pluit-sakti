@@ -54,6 +54,12 @@ function TopNavbar() {
                   >
                     Mendatang
                   </Link>
+                  <Link
+                    href="/search"
+                    className="text-md font-light text-slate-200 transition-colors hover:text-red-600"
+                  >
+                    Pencarian
+                  </Link>
                 </div>
               </SheetContent>
             </Sheet>
