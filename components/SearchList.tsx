@@ -31,7 +31,7 @@ function SearchList() {
       <div className="grid grid-cols-6 gap-8 max-lg:gap-8 max-lg:grid-cols-3 max-md:grid-cols-2 max-xl:grid-cols-4">
         {searched.map((movie, index) => (
           <div className="flex flex-col gap-2" key={index}>
-            <div className="relative h-[350px] max-sm:h-[280px]">
+            <div className="relative h-[350px] max-sm:h-[175px]">
               <Image
                 src={movie.poster}
                 alt={movie.title}
