@@ -74,7 +74,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-6 p-16">
         <div className="flex justify-between">
-          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-xl">
+          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-base">
             Sedang Tayang
           </p>
           <div className="flex">
@@ -82,7 +82,7 @@ export default function Home() {
               href={"/genre"}
               className="px-6 py-4 bg-red-600 rounded-lg flex gap-3"
             >
-              <p className="text-md font-light text-white max-md:text-sm">
+              <p className="text-md font-light text-white max-md:text-xs">
                 Lebih Banyak
               </p>
               <Image
@@ -108,13 +108,19 @@ export default function Home() {
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <p className="text-white font-semibold text-xl">
+                <p className="text-white font-semibold text-xl max-md:text-base">
                   {movie.title}
                 </p>
                 <div className="flex gap-3">
-                  <p className="text-white font-light text-sm">{movie.year}</p>
-                  <p className="text-white font-light text-sm">|</p>
-                  <p className="text-white font-light text-sm">{movie.time}</p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    {movie.year}
+                  </p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    |
+                  </p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    {movie.time}
+                  </p>
                 </div>
               </div>
             </div>
@@ -123,7 +129,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-6 p-16">
         <div className="flex justify-between">
-          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-xl">
+          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-base">
             Terpopuler
           </p>
           <div className="flex">
@@ -131,7 +137,7 @@ export default function Home() {
               href={"/genre"}
               className="px-6 py-4 bg-red-600 rounded-lg flex gap-3"
             >
-              <p className="text-md font-light text-white max-md:text-sm">
+              <p className="text-md font-light text-white max-md:text-xs">
                 Lebih Banyak
               </p>
               <Image
@@ -157,13 +163,19 @@ export default function Home() {
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <p className="text-white font-semibold text-xl">
+                <p className="text-white font-semibold text-xl max-md:text-base">
                   {movie.title}
                 </p>
                 <div className="flex gap-3">
-                  <p className="text-white font-light text-sm">{movie.year}</p>
-                  <p className="text-white font-light text-sm">|</p>
-                  <p className="text-white font-light text-sm">{movie.time}</p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    {movie.year}
+                  </p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    |
+                  </p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    {movie.time}
+                  </p>
                 </div>
               </div>
             </div>
@@ -172,7 +184,7 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-6 p-16">
         <div className="flex justify-between">
-          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-xl">
+          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-base">
             Mendatang
           </p>
           <div className="flex">
@@ -180,7 +192,7 @@ export default function Home() {
               href={"/detail"}
               className="px-6 py-4 bg-red-600 rounded-lg flex gap-3"
             >
-              <p className="text-md font-light text-white max-md:text-sm">
+              <p className="text-md font-light text-white max-md:text-xs">
                 Lebih Banyak
               </p>
               <Image
@@ -206,13 +218,19 @@ export default function Home() {
                 />
               </div>
               <div className="flex flex-col gap-2">
-                <p className="text-white font-semibold text-xl">
+                <p className="text-white font-semibold text-xl max-md:text-base">
                   {movie.title}
                 </p>
                 <div className="flex gap-3">
-                  <p className="text-white font-light text-sm">{movie.year}</p>
-                  <p className="text-white font-light text-sm">|</p>
-                  <p className="text-white font-light text-sm">{movie.time}</p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    {movie.year}
+                  </p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    |
+                  </p>
+                  <p className="text-white font-light text-sm max-md:text-xs">
+                    {movie.time}
+                  </p>
                 </div>
               </div>
             </div>
@@ -221,14 +239,14 @@ export default function Home() {
       </div>
       <div className="flex flex-col gap-6 p-16 mb-20">
         <div className="flex">
-          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-xl">
+          <p className="text-4xl max-lg:text-2xl font-bold text-white max-md:text-base">
             Genre Tersedia
           </p>
         </div>
         <div className="flex gap-2 flex-wrap">
           {genre.map((type, index) => (
             <Link href={"/genre"} key={index}>
-              <p className="border px-4 py-2 border-slate-600 text-white rounded-2xl hover:bg-red-600 hover:cursor-pointer transition-all">
+              <p className="border px-4 py-2 border-slate-600 text-white rounded-2xl hover:bg-red-600 hover:cursor-pointer transition-all text-base max-md:text-sm">
                 {type}
               </p>
             </Link>
