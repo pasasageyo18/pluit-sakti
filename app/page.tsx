@@ -98,7 +98,7 @@ export default function Home() {
         <div className="grid grid-cols-6 gap-8 max-lg:gap-8 max-lg:grid-cols-2 max-xl:grid-cols-4">
           {movieList.map((movie, index) => (
             <div className="flex flex-col gap-2" key={index}>
-              <div className="relative h-[370px] max-sm:h-[190px]">
+              <div className="relative h-[370px] max-sm:h-[140px]">
                 <Image
                   src={movie.poster}
                   alt={movie.title}
@@ -153,7 +153,7 @@ export default function Home() {
         <div className="grid grid-cols-6 gap-8 max-lg:gap-8 max-lg:grid-cols-2 max-xl:grid-cols-4">
           {movieList.map((movie, index) => (
             <div className="flex flex-col gap-2" key={index}>
-              <div className="relative h-[350px] max-sm:h-[190px]">
+              <div className="relative h-[350px] max-sm:h-[140px]">
                 <Image
                   src={movie.poster}
                   alt={movie.title}
@@ -208,7 +208,7 @@ export default function Home() {
         <div className="grid grid-cols-6 gap-8 max-lg:gap-8 max-lg:grid-cols-2 max-xl:grid-cols-4">
           {movieList.map((movie, index) => (
             <div className="flex flex-col gap-2" key={index}>
-              <div className="relative h-[350px] max-sm:h-[190px]">
+              <div className="relative h-[350px] max-sm:h-[140px]">
                 <Image
                   src={movie.poster}
                   alt={movie.title}
