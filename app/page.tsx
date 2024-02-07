@@ -189,7 +189,7 @@ export default function Home() {
           </p>
           <div className="flex">
             <Link
-              href={"/detail"}
+              href={"/genre"}
               className="px-6 py-4 bg-red-600 rounded-lg flex gap-3"
             >
               <p className="text-md font-light text-white max-md:text-xs">
