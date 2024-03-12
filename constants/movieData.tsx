@@ -16,7 +16,7 @@ export const movieList = [
   {
     title: "Titans",
     year: "2018",
-    time: "4 Seasons",
+    time: "3 Seasons",
     genre: ["Action", "Crime", "Fantasy", "Animation"],
     poster: "/assets/films/titans.png",
   },
